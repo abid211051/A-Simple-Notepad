@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background: #a16ed4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#inputdiv{
+    width: 60vw;
+    height: 250px;
+    background: rgba(147, 214, 235, 0.5); 
+    
+}
+#inputdiv textarea{
+    width: 100%;
+}
+#btn{
+    width: 60vw;
+    height: 40px;
+    font-size: larger;
+    background-color: cornflowerblue;
+    border-radius: 20px;
+}
+#outputdiv{
+    width: 60vw;
+    background-color: antiquewhite;
+}
+.optextdiv textarea{
+    width: 80%;
+}
+@media only screen and (max-width: 650px){
+    #inputdiv{
+        width: 100vw;
+    }
+    #outputdiv{
+        width: 100vw;
+    }
+    .optextdiv{
+        display: flex;
+        flex-direction: column;
+    }
+    .optextdiv textarea{
+        width: 100%;
+    }
+}
